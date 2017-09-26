@@ -7,7 +7,7 @@
 #include "matrix_wrapper.h"
 #include "vector_wrapper.h"
 
-#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 
 typedef Eigen::VectorXd EigenColumnVector;
 typedef Eigen::RowVectorXd EigenRowVector;

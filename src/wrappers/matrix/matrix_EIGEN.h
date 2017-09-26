@@ -7,7 +7,7 @@
 #include "matrix_wrapper.h"
 #include "vector_wrapper.h"
 
-#include <Eigen/Core>
+#include <eigen3/Eigen/Core>
 #include <assert.h>
 
 typedef Eigen::MatrixXd EigenMatrix;

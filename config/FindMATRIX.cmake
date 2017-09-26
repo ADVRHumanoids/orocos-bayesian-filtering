@@ -33,7 +33,7 @@ SET(__MATRIXWRAPPER_EIGEN__ OFF)
 # install path
 # ------------
 IF(NOT MATRIX_LIB)
-  SET( MATRIX_LIB boost CACHE STRING "Which matrix library to use: lti, newmat, boost or eigen")
+  SET( MATRIX_LIB eigen CACHE STRING "Which matrix library to use: lti, newmat, boost or eigen")
 ENDIF(NOT MATRIX_LIB)
 MESSAGE("Searching for matrix lib ${MATRIX_LIB}")
 

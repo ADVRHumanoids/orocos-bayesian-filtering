@@ -4,7 +4,7 @@
 #include "matrix_EIGEN.h"
 #include "vector_EIGEN.h"
 
-#include <Eigen/LU>
+#include <eigen3/Eigen/LU>
 
 using namespace std;
 
