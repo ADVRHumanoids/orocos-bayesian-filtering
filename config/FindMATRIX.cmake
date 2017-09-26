@@ -89,7 +89,7 @@ ELSE (MATRIX_LIB STREQUAL "boost")
 
 IF (MATRIX_LIB STREQUAL "eigen")
   IF ( NOT EIGEN_INCLUDE )
-    FIND_PATH(EIGEN_FOUND Eigen/Core)
+    FIND_PATH(EIGEN_FOUND eigen3)
     IF ( EIGEN_FOUND )
       MESSAGE("-- Looking for Eigen - found")
       SET( EIGEN_INCLUDE "${EIGEN_FOUND}")
